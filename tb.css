@@ -133,6 +133,8 @@ input, select {
 body{
 /*    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.imgur.com/imvJRGd.jpg'); 
 */  
+    margin: 0;
+    padding: 0;
     background: url('https://i.imgur.com/imvJRGd.jpg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -142,95 +144,99 @@ body{
 
 
 .topWrapper{
-    background-color: white;
-
+/*    background: url('https://i.imgur.com/wsSLafM.jpg');
+*/    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+/*    position: fixed; 
+*/    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    transition: all 3s ease;
+    padding-bottom: 30px;
 }
 
-
+.topWrapper a:hover{
+    -webkit-filter: hue-rotate(250deg);
+}
 
 h1{
-    background-color: white;
+    background-color: red;
     text-align: center;
-    color: black;
-    font-family: "Montserrat", "montserrat-bold";
-    text-transform: uppercase;
-/*    font-family: 'Helvetica Neue', Helvetica;
-*/    font-weight: 100;
+    color: white;
+    font-family: "Bebas Neue", Arial;   
+    font-weight: 100;
     font-size: 40px;
     margin: 0px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+
 }
 
 h2{
-    background-color: white;
     text-align: center;
-    color: #666666;    
+    color: white;    
     font-family: 'Lato', sans-serif;
 /*    font-family: 'Helvetica Neue', Helvetica;
 */    
     font-weight: 100;
     font-size: 30px;
     margin: 0px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 p{
     color: white;
     font-family: 'Helvetica Neue', Helvetica;
     font-weight: 200;
+    font-size: 18px
 }
 
+img{
+    position: absolute;
+    right: 0px;
+/*    padding-right: 30px;
+*/}
 
 nav {
 
-    background-color: white;
+/*    width: 100%;
+*/
+    position: fixed;
+    height: 130px;
+    width: 97%
 
-    width: 100%;
-
-    margin: 20px 0;
-}
+/*    position: fixed;
+*/
+/*    margin: 20px 0;
+*/}
 
 nav ul {
-
-/*        list-style: none;
-*/
     overflow: hidden;
 
-    margin-left: 200px;
-    margin-right: 200px;
-
+    height: 130px;
 
 /*        padding: 0; }   */
 }
 
 nav ul li {
 
-    float: left;  
-
+/*    float: left;  
+*/
     width: 50%;
+   margin-right: 0px;
+
 
 }
 
 
 nav ul li a {
-
-/*
-border-style: solid;
-border-style: solid;
-
-border-color: black;
-border-color: black;
-
-border-width: 1px;
-
-left-border-width: 0px;
-right-border-width: 0px;
-
-font-family: 'Lato', sans-serif;
-color: #666666;    
-font-weight: 600
-font-size: 12px;*/
 
 /*border-radius: 50;
 */
@@ -242,20 +248,15 @@ padding: 8px 0;
 
 display: block;
 
-width: 100%; 
+/*width: 100%; 
+*/
+height: 100px;
 
+/*width: 100px;
+*/
 /*background: #cdeb8e; 
 */
 }
-
-
-.summary{
-/*    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.imgur.com/imvJRGd.jpg'); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-    }
 
 .box{
     background-color: rgba(0,0,0,0.5);
@@ -264,6 +265,12 @@ width: 100%;
     margin: 100px auto;
     text-align: center;
 }
+
+.portfolioVideosSection{
+    background-color: black;
+    display: grid;
+}
+
 
 
 
