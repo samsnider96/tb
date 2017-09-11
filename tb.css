@@ -273,6 +273,9 @@ height: 100px;
 
 .portfolioVideosSection p{
     display: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
 }
 
 .portfolioVideosSection{
