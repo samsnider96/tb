@@ -266,11 +266,31 @@ height: 100px;
     text-align: center;
 }
 
-.portfolioVideosSection{
-    background-color: black;
-    display: grid;
+#infoImage{
+    position: absolute;
+    left: 0px;
 }
 
+.portfolioVideosSection p{
+    display: none;
+}
+
+.portfolioVideosSection{
+    text-align: center;
+    background-color: black;
+
+/*    padding-left: 30px;
+    text-align: right;*/
+}
+
+.portfolioVideosSection img:hover{
+    height:150px;
+    width:150px;
+}
+
+.portfolioVideosSection img:hover  ~ p{
+    display: block;
+}
 
 
 
