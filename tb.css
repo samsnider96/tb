@@ -131,37 +131,60 @@ input, select {
 
 
 body{
-/*    background: url('https://i.imgur.com/imvJRGd.jpg'); 
+/*    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.imgur.com/imvJRGd.jpg'); 
+*/  
+    background: url('https://i.imgur.com/imvJRGd.jpg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
 }
 
+
+.topWrapper{
+    background-color: white;
+
+}
 
 
 
 h1{
+    background-color: white;
     text-align: center;
     color: black;
-    font-family: 'Helvetica Neue', Helvetica;
-    font-weight: 100;
-    font-size: 60px;
+    font-family: "Montserrat", "montserrat-bold";
+    text-transform: uppercase;
+/*    font-family: 'Helvetica Neue', Helvetica;
+*/    font-weight: 100;
+    font-size: 40px;
     margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h2{
+    background-color: white;
     text-align: center;
-    color: black;
-    font-family: 'Helvetica Neue', Helvetica;
+    color: #666666;    
+    font-family: 'Lato', sans-serif;
+/*    font-family: 'Helvetica Neue', Helvetica;
+*/    
     font-weight: 100;
     font-size: 30px;
     margin: 0px;
+    margin-bottom: 30px;
+}
+
+p{
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica;
+    font-weight: 200;
 }
 
 
-
 nav {
+
+    background-color: white;
 
     width: 100%;
 
@@ -174,8 +197,8 @@ nav ul {
 */
     overflow: hidden;
 
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 
 
 /*        padding: 0; }   */
@@ -192,7 +215,7 @@ nav ul li {
 
 nav ul li a {
 
-
+/*
 border-style: solid;
 border-style: solid;
 
@@ -201,6 +224,16 @@ border-color: black;
 
 border-width: 1px;
 
+left-border-width: 0px;
+right-border-width: 0px;
+
+font-family: 'Lato', sans-serif;
+color: #666666;    
+font-weight: 600
+font-size: 12px;*/
+
+/*border-radius: 50;
+*/
 text-decoration: none;
 
 text-align: center;
@@ -217,14 +250,20 @@ width: 100%;
 
 
 .summary{
-    background: url('https://i.imgur.com/imvJRGd.jpg'); 
-/*    -webkit-background-size: cover;
+/*    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.imgur.com/imvJRGd.jpg'); 
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;*/
     }
 
-
+.box{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
 
 
 
